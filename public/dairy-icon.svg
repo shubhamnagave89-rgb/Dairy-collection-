@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532d"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="milkGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0fdf4"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#052e16" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Circle / Shield -->
+  <rect width="512" height="512" rx="128" fill="url(#primaryGrad)"/>
+  
+  <!-- Outer Ring Accent -->
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#22c55e" stroke-width="6" stroke-opacity="0.4" stroke-dasharray="12 12"/>
+
+  <!-- Golden Ring -->
+  <circle cx="256" cy="256" r="215" fill="none" stroke="url(#goldGrad)" stroke-width="4" filter="url(#dropShadow)"/>
+
+  <!-- Milk Can / Churn Silhouette & Milk Splash -->
+  <g transform="translate(136, 110)">
+    <!-- Can Lid and Neck -->
+    <path d="M70,30 L170,30 L160,55 L80,55 Z" fill="#ffffff" stroke="#166534" stroke-width="4"/>
+    <rect x="65" y="15" width="110" height="15" rx="5" fill="url(#goldGrad)"/>
+    <path d="M80,55 L60,110 L180,110 L160,55 Z" fill="url(#milkGrad)"/>
+    
+    <!-- Can Body -->
+    <path d="M60,110 L45,260 Q45,280 75,280 L165,280 Q195,280 195,260 L180,110 Z" fill="url(#milkGrad)" filter="url(#dropShadow)"/>
+
+    <!-- Handles -->
+    <path d="M50,130 C20,130 20,190 50,200" fill="none" stroke="#cbd5e1" stroke-width="12" stroke-linecap="round"/>
+    <path d="M190,130 C220,130 220,190 190,200" fill="none" stroke="#cbd5e1" stroke-width="12" stroke-linecap="round"/>
+
+    <!-- Emblem in Milk Can: Jyotiba Diya & Milk Drop -->
+    <circle cx="120" cy="195" r="42" fill="#14532d"/>
+    
+    <!-- Milk Drop inside -->
+    <path d="M120,165 C120,165 105,188 105,200 C105,210 112,218 120,218 C128,218 135,210 135,200 C135,188 120,165 120,165 Z" fill="#ffffff"/>
+    
+    <!-- Jyotiba Flame tip (Gold) -->
+    <path d="M120,172 C120,172 113,184 113,192 C113,196 116,200 120,200 C124,200 127,196 127,192 C127,184 120,172 120,172 Z" fill="url(#goldGrad)"/>
+  </g>
+
+  <!-- Green Grass / Pasture Wave at bottom -->
+  <path d="M50,420 Q150,380 256,420 Q362,460 462,420 L462,450 Q360,490 256,450 Q150,410 50,450 Z" fill="#22c55e" opacity="0.8"/>
+  <path d="M70,440 Q170,410 256,440 Q342,470 442,440 L442,460 Q340,490 256,460 Q170,430 70,460 Z" fill="#86efac" opacity="0.9"/>
+</svg>

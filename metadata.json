@@ -1,0 +1,6 @@
+{
+  "name": "ज्योतिबा दूध संकलन केंद्र",
+  "description": "ज्योतिबा दूध संकलन केंद्र - संपूर्ण डेअरी दूध संकलन व्यवस्थापन प्रणाली (वेबसाइट + अँड्रॉइड ॲप्लिकेशन) | Complete Dairy Management System",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

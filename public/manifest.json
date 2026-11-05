@@ -1,0 +1,29 @@
+{
+  "id": "/",
+  "name": "ज्योतिबा दूध संकलन केंद्र",
+  "short_name": "ज्योतिबा दूध",
+  "description": "ज्योतिबा दूध संकलन केंद्र - संपूर्ण डेअरी दूध संकलन व्यवस्थापन प्रणाली (वेबसाइट + अँड्रॉइड ॲप्लिकेशन)",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#052e16",
+  "theme_color": "#14532d",
+  "lang": "mr",
+  "dir": "ltr",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    {
+      "src": "/dairy-icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/dairy-icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
